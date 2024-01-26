@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+}
+.card-img-top{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+.hero-image{
+    background-image:  radial-gradient(circle, rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.186)), url('https://assets.dataindonesia.id/1637318914101_35_blob');
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 10px;
+}
+
+.hero-text{
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+.hero-text-h1{
+    border: 5px solid white;
+
+}
